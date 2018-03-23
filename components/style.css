@@ -1,0 +1,285 @@
+/* Navbar color */
+
+.navbar {
+    background-color: #161616 !important;
+    border-color: #262626;
+    box-shadow: 0 14px 26px -12px rgba(0, 0, 0, .42), 0 4px 23px 0 rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2);
+}
+
+.get-in-touch {
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  transition: all .6s ease;
+}
+
+.get-in-touch:hover {
+  background-color: #fff;
+  color: #4caf50;
+  transform: scale(1.1);
+  box-shadow: 0 14px 26px -12px rgba(76, 175, 80, .42), 0 4px 23px 0 rgba(0, 0, 0, .5), 0 8px 10px -5px rgba(76, 175, 80, .4);
+}
+
+.navbar-brand {
+  transition: all .5s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.2);
+}
+
+/* SideBar */
+
+
+@media screen and (max-width: 991px) {
+  .sidebar-collapse .navbar-collapse:before {
+      background: #4caf50 !important;
+      background: -webkit-linear-gradient(#4caf50 0%, #000 80%) !important;
+      background: -o-linear-gradient(#4caf50 0%, #000 80%) !important;
+      background: -moz-linear-gradient(#4caf50 0%, #000 80%) !important;
+      background: linear-gradient(#4caf50 0%, #000 80%) !important;
+  }
+}
+
+
+/* Jombotron Carousel */
+
+.pic-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+
+figure {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70vh;
+  opacity: 0;
+  /*animation*/
+
+  animation: slideShow 24s linear infinite 0s;
+  -o-animation: slideShow 24s linear infinite 0s;
+  -moz-animation: slideShow 24s linear infinite 0s;
+  -webkit-animation: slideShow 24s linear infinite 0s;
+}
+
+figurecaption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+}
+
+.pic-1 {
+  opacity: 1;
+  background: url(http://cdn.morguefile.com/imageData/public/files/g/GaborfromHungary/06/p/74fea178af5c36b5303625ffeacd8454.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.pic-2 {
+  animation-delay: 6s;
+  -o-animation-delay: 6s;
+  -moz--animation-delay: 6s;
+  -webkit-animation-delay: 6s;
+  background: url(http://cdn.morguefile.com/imageData/public/files/k/Koan/06/p/ea989990a29bb73aa78db9f8322b5631.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.pic-3 {
+  animation-delay: 12s;
+  -o-animation-delay: 12s;
+  -moz--animation-delay: 12s;
+  -webkit-animation-delay: 12s;
+  background: url(http://cdn.morguefile.com/imageData/public/files/t/TSmythe/06/p/74820906fce25071550b74b6773a0e19.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.pic-4 {
+  animation-delay: 18s;
+  -o-animation-delay: 18s;
+  -moz--animation-delay: 18s;
+  -webkit-animation-delay: 18s;
+  background: url(http://cdn.morguefile.com/imageData/public/files/i/Isbiliani/05/p/8787b7ac34a8de4c4aad6fe8a5d7e925.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* keyframes*/
+
+@keyframes
+slideShow {  0% {
+ opacity: 0;
+ transform:scale(1);
+ -ms-transform:scale(1);
+}
+ 5% {
+ opacity: 1
+}
+ 25% {
+ opacity: 1;
+}
+ 30% {
+ opacity: 0;
+ transform:scale(1.1);
+ -ms-transform:scale(1.1);
+}
+ 100% {
+ opacity: 0;
+ transform:scale(1);
+ -ms-transformm:scale(1);
+}
+}
+ @-o-keyframes
+slideShow {  0% {
+ opacity: 0;
+ -o-transform:scale(1);
+}
+ 5% {
+ opacity: 1
+}
+ 25% {
+ opacity: 1;
+}
+ 30% {
+ opacity: 0;
+ -o-transform:scale(1.1);
+}
+ 100% {
+ opacity: 0;
+ -o-transformm:scale(1);
+}
+}
+ @-moz-keyframes
+slideShow {  0% {
+ opacity: 0;
+ -moz-transform:scale(1);
+}
+ 5% {
+ opacity: 1
+}
+ 25% {
+ opacity: 1;
+}
+ 30% {
+ opacity: 0;
+ -moz-transform:scale(1.1);
+}
+ 100% {
+ opacity: 0;
+ -moz-transformm:scale(1);
+}
+}
+ @-webkit-keyframes
+slideShow {  0% {
+ opacity: 0;
+ -webkit-transform:scale(1);
+}
+ 5% {
+ opacity: 1
+}
+ 25% {
+ opacity: 1;
+}
+ 30% {
+ opacity: 0;
+ -webkit-transform:scale(1.1);
+}
+ 100% {
+ opacity: 0;
+ -webkit-transformm:scale(1);
+}
+}
+
+
+
+/* Card Section */
+
+
+.card-section {
+  padding-top: 75vh;
+  width: 60%;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .card-section {
+    width: 90%;
+  }
+}
+
+.card-header {
+  /* background-color: #4caf50; */
+}
+
+.nav-tabs.nav-tabs-neutral>.nav-item>.nav-link {
+  color: #000 !important;
+}
+
+.nav-tabs>.nav-item>.nav-link.active {
+  color: #fff !important;
+  background-color: #4caf50 !important;
+  box-shadow: 0 14px 26px -12px rgba(76, 175, 80, .42), 0 4px 23px 0 rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(76, 175, 80, .2);
+}
+
+.wrapper {
+  background-color: #eee;
+}
+
+
+
+
+/* Parallax Background */
+
+.parallax-div {
+  position: relative;
+}
+
+.parallax-bg {
+  background: linear-gradient(
+              rgba(0,0,0,.5),
+              rgba(0,0,0,.5)
+              ),
+              url('../assets/img/bg12.jpeg') no-repeat center center fixed;
+  height: 100vh;
+  background-size: cover;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.parallax-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.product-head {
+  text-align: center;
+  color: #fff;
+  padding: 30px 0;
+}
+
+
+
+
+/* Footer */
+
+.footer-love {
+  color: red;
+}
