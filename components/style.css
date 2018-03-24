@@ -65,6 +65,15 @@
   }
 }
 
+@media screen and (max-width: 400px) {
+  .sidebar-collapse [class*="navbar-expand-"] .navbar-collapse {
+    width: 250px;
+  }
+
+  .navbar-translate .toggled {
+    padding-left: 170px;
+  }
+}
 
 /* Jumbotron Section */
 
@@ -117,6 +126,18 @@
   color: #fff;
   padding-top: 50px;
   font-family: 'Share Tech', Montserrat;
+}
+
+
+/* About Me */
+
+.about-container {
+  padding: 50px;
+}
+
+.about-me {
+  font-family: 'Share Tech', Montserrat;
+  text-align: justify;
 }
 
 
