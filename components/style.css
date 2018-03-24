@@ -74,43 +74,8 @@
 
 
 
-/* Card Section */
-
-
-.card-section {
-  padding-top: 75vh;
-  width: 60%;
-  margin: auto;
-}
-
-@media screen and (max-width: 768px) {
-  .card-section {
-    width: 90%;
-  }
-}
-
-.card-header {
-  /* background-color: #4caf50; */
-}
-
-.nav-tabs.nav-tabs-neutral>.nav-item>.nav-link {
-  color: #000 !important;
-}
-
-.nav-tabs>.nav-item>.nav-link.active {
-  color: #fff !important;
-  background-color: #4caf50 !important;
-  box-shadow: 0 14px 26px -12px rgba(76, 175, 80, .42), 0 4px 23px 0 rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(76, 175, 80, .2);
-}
-
-.wrapper {
-  background-color: #eee;
-}
-
-
-
-
 /* Parallax Background */
+
 
 .parallax-div {
   position: relative;
@@ -118,37 +83,49 @@
 
 .parallax-bg {
   background: linear-gradient(
-              rgba(0,0,0,.5),
-              rgba(0,0,0,.5)
-              ),
-              url('../assets/img/bg12.jpeg') no-repeat center center fixed;
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)),
+              url('../assets/img/bg12.JPG') no-repeat center center fixed;
   height: 100vh;
   background-size: cover;
-  -webkit-filter: blur(2px);
-  -moz-filter: blur(2px);
-  -o-filter: blur(2px);
-  -ms-filter: blur(2px);
-  filter: blur(2px);
 }
 
 .parallax-content {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 60px;
   right: 0;
   z-index: 1;
 }
 
-.product-head {
+.parallax-head {
   text-align: center;
   color: #fff;
-  padding: 30px 0;
+  padding: 40px 0;
+  font-family: 'Love Ya Like A Sister', Montserrat;
+}
+
+.parallax-description {
+  font-family: 'Love Ya Like A Sister', Montserrat;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.description {
+  text-align: center;
+  color: #fff;
+  padding-top: 50px;
+  font-family: 'Share Tech', Montserrat;
 }
 
 
-
-
 /* Footer */
+
+.fa-coffee {
+  color: #000;
+  font-size: 16px;
+}
 
 .footer-love {
   color: red;

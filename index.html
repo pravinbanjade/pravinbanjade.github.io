@@ -10,6 +10,7 @@
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Share+Tech" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
     <!-- CSS Files -->
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -82,59 +83,72 @@
     </nav>
     <!-- End Navbar -->
 
-    <!-- Parallax Image -->
-
     <div class="wrapper">
-        <div class="page-header">
-            <div class="page-header-image" data-parallax="true" style="background-image: url('./assets/img/overlay.png');">
-            </div>
-        </div>
-        <div class="section">
-          <div data-parallax="true" style="background-image: url('./assets/img/overlay.png');"></div>
-        </div>
 
-        <footer class="footer">
-            <div class="container">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="/">
-                                Pravin
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#!">
-                                About
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#!">
-                                Projects
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="copyright">
-                    &copy;
-                    <script>
-                        document.write(new Date().getFullYear())
-                    </script>, Designed & Coded with <i class="fa fa-heart footer-love"></i></a>
-                </div>
-            </div>
-        </footer>
+      <!-- Parallax Image -->
+      <div class="parallax-div">
+        <div data-parallax="true" class="parallax-bg"></div>
+        <div class="parallax-content">
+          <h2 class="parallax-head">Hello,</h2>
+          <h2 class="parallax-description">I'm</h2>
+          <h2 class="parallax-description">Pravin Banjade</h2>
+
+          <!-- Typewriter -->
+          <h4><p class="typewrite description" data-period="2000" data-type='[ "Front-End Developer.", "UX/UI Designer." ]'>
+            <span class="wrap"></span>
+          </p></h4>
+          <!-- End Typewriter -->
+
+        </div>
+      </div>
+      <!-- End Parallax Image -->
+
+      <!-- Footer -->
+      <footer class="footer">
+          <div class="container">
+              <nav>
+                  <ul>
+                      <li>
+                          <a href="/">
+                              Pravin
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#!">
+                              About
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#!">
+                              Projects
+                          </a>
+                      </li>
+                  </ul>
+              </nav>
+              <div class="copyright">
+                  &copy;
+                  <script>
+                      document.write(new Date().getFullYear())
+                  </script>, Built with &nbsp; <i class="fa fa-coffee"></i> &nbsp; & &nbsp; <i class="fa fa-heart footer-love"></i>
+              </div>
+          </div>
+      </footer>
+      <!-- End Footer -->
+
     </div>
 </body>
 <!--   Core JS Files   -->
-<script src="../assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
-<script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
-<script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<script src="./assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
 <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-<script src="../assets/js/plugins/bootstrap-switch.js"></script>
+<script src="./assets/js/plugins/bootstrap-switch.js"></script>
 <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-<script src="../assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
 <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
-<script src="../assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+<script src="./assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
-<script src="../assets/js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
+<script src="./assets/js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
+<script src="./components/typewriter.js" type="text/javascript"></script>
 
 </html>
