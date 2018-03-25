@@ -84,7 +84,7 @@ body {
   }
 
   .navbar-translate .toggled {
-    padding-left: 170px;
+    padding-left: 140px;
   }
 }
 
@@ -302,6 +302,89 @@ body {
   margin-top: 27%;
   text-transform: uppercase;
   font-family: 'Share Tech', Montserrat;
+}
+
+
+/* Contact */
+
+.contact-container {
+  margin-bottom: 50px;
+}
+
+.map-bg {
+  position: relative;
+}
+
+#map {
+  width: 100%;
+  height: 300px;
+  opacity: 0.3;
+}
+
+.map-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-head {
+  font-family: 'Share Tech', Montserrat;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 50px;
+  margin-bottom: 70px;
+}
+
+.map-overlay > ul {
+  text-align: center;
+}
+
+.map-overlay > ul > li {
+  display: inline;
+}
+
+.social-btn {
+  color: #000;
+  border: solid 2px #000;
+  border-radius: 50%;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 48px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  margin: 10px;
+}
+
+.social-btn:hover {
+  color: #000;
+  border: solid 2px #fff;
+  background-color: #fff;
+  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.4);
+}
+
+.social-btn:hover .fa-facebook-f, .social-btn:focus .fa-facebook-f {
+  color: #3b5998;
+}
+
+.social-btn:hover .fa-instagram, .social-btn:focus .fa-instagram {
+  color: #e4405f;
+}
+
+.social-btn:hover .fa-linkedin, .social-btn:focus .fa-linkedin {
+  color: #007bb6;
+}
+
+.social-btn:hover .fa-github, .social-btn:focus .fa-github {
+  color: #171516;
+}
+
+.social-btn:hover .fa-twitter, .social-btn:focus .fa-twitter {
+  color: #00aced;
 }
 
 
