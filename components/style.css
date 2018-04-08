@@ -342,8 +342,14 @@ body {
 
 #map {
   width: 100%;
-  height: 300px;
+  height: 500px;
   opacity: 0.3;
+}
+
+@media screen and (max-width: 768px) {
+  #map {
+    height: 600px;
+  }
 }
 
 .map-overlay {
@@ -359,7 +365,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   padding-top: 50px;
-  margin-bottom: 70px;
+  margin-bottom:30px;
 }
 
 .map-overlay > ul {
@@ -412,6 +418,39 @@ body {
   color: #00aced;
 }
 
+.contact-me {
+  text-align: center;
+}
+
+.contact-me > a {
+  color: #000;
+}
+
+.contact-me > a:hover {
+  text-decoration: none;
+}
+
+.contact-me > a:hover .fa {
+  transform: rotate(360deg);
+  -moz-transform: rotate(360deg); /* Mozilla */
+  -webkit-transform: rotate(360deg); /* Safari and Chrome */
+  -o-transform: rotate(360deg); /* Opera */
+
+  transition-duration: .8s;
+  -moz-transition-duration: .8s; /* Mozilla */
+  -webkit-transition-duration: .8s; /* Safari and Chrome */
+  -o-transition-duration: .8s; /* Opera */
+
+  transition-delay: now;
+  -moz-transition-delay: now; /* Mozilla */
+  -webkit-transition-delay: now; /* Safari and Chrome */
+  -o-transition-delay: now; /* Opera */
+
+  animation-timing-function: linear;
+  -moz-animation-timing-function: linear; /* Mozilla */
+  -webkit-animation-timing-function: linear; /* Safari and Chrome */
+  -o-animation-timing-function: linear; /* Opera */
+}
 
 /* Footer */
 
