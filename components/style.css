@@ -1,5 +1,9 @@
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 body {
-  overflow-x: hidden !important;
   position: relative;
   overflow-y: auto;
 }
